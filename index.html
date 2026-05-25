@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
@@ -28,7 +29,8 @@
 
             </div>
 
-            <div class="text-sm bg-indigo-700 px-3 py-1 rounded-full text-indigo-100 font-medium">
+            <div
+                class="text-sm bg-indigo-700 px-3 py-1 rounded-full text-indigo-100 font-medium">
                 Materi 1 - 7 & Tugas
             </div>
 
@@ -37,16 +39,20 @@
     </header>
 
 
+    <!-- CONTENT -->
     <div class="max-w-4xl mx-auto px-4 py-8 space-y-6">
+
 
         <!-- MATERI 1 -->
         <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
 
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 
                 <div class="flex items-center space-x-3">
 
-                    <div class="p-2 bg-emerald-50 rounded-lg text-emerald-600">
+                    <div
+                        class="p-2 bg-emerald-50 rounded-lg text-emerald-600">
                         <i class="fa-solid fa-layer-group text-lg"></i>
                     </div>
 
@@ -56,11 +62,10 @@
 
                 </div>
 
-                <select
-                onchange="if(this.value) window.location.href=this.value;"
-                class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
 
-                    <option value="" selected disabled>
+                    <option disabled selected>
                         -- Pilih Sub Materi --
                     </option>
 
@@ -82,7 +87,8 @@
         <!-- MATERI 2 -->
         <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
 
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 
                 <div class="flex items-center space-x-3">
 
@@ -96,11 +102,10 @@
 
                 </div>
 
-                <select
-                onchange="if(this.value) window.location.href=this.value;"
-                class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
 
-                    <option value="" selected disabled>
+                    <option disabled selected>
                         -- Pilih Sub Materi --
                     </option>
 
@@ -126,7 +131,8 @@
         <!-- MATERI 3 -->
         <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
 
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 
                 <div class="flex items-center space-x-3">
 
@@ -140,11 +146,10 @@
 
                 </div>
 
-                <select
-                onchange="if(this.value) window.location.href=this.value;"
-                class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
 
-                    <option value="" selected disabled>
+                    <option disabled selected>
                         -- Pilih Sub Materi --
                     </option>
 
@@ -158,7 +163,224 @@
 
         </section>
 
+
+        <!-- MATERI 4 -->
+        <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
+
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="p-2 bg-rose-50 rounded-lg text-rose-600">
+                        <i class="fa-solid fa-magnifying-glass text-lg"></i>
+                    </div>
+
+                    <h2 class="text-lg font-bold text-slate-900">
+                        Materi 4
+                    </h2>
+
+                </div>
+
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+
+                    <option disabled selected>
+                        -- Pilih Sub Materi --
+                    </option>
+
+                    <option value="strukturdata/searching.html">
+                        4.1 - Sequential Search
+                    </option>
+
+                    <option value="strukturdata/hashing.html">
+                        4.2 - Hashing
+                    </option>
+
+                    <option value="strukturdata/binery.html">
+                        4.3 - Binery Search
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 5 -->
+        <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
+
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="p-2 bg-cyan-50 rounded-lg text-cyan-600">
+                        <i class="fa-solid fa-bolt text-lg"></i>
+                    </div>
+
+                    <h2 class="text-lg font-bold text-slate-900">
+                        Materi 5
+                    </h2>
+
+                </div>
+
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+
+                    <option disabled selected>
+                        -- Pilih Sub Materi --
+                    </option>
+
+                    <option value="strukturdata/merge.html">
+                        5.1 - Merge Sort
+                    </option>
+
+                    <option value="strukturdata/quick.html">
+                        5.2 - Quick Sort
+                    </option>
+
+                    <option value="strukturdata/counting.html">
+                        5.3 - Counting Sort
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 6 -->
+        <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
+
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="p-2 bg-indigo-50 rounded-lg text-indigo-600">
+                        <i class="fa-solid fa-link text-lg"></i>
+                    </div>
+
+                    <h2 class="text-lg font-bold text-slate-900">
+                        Materi 6
+                    </h2>
+
+                </div>
+
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+
+                    <option disabled selected>
+                        -- Pilih Sub Materi --
+                    </option>
+
+                    <option value="strukturdata/linkedlist.html">
+                        6.1 - Linked List
+                    </option>
+
+                    <option value="strukturdata/pengenalanclass.html">
+                        6.2 - Pengenalan Class Object
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 7 -->
+        <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
+
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="p-2 bg-purple-50 rounded-lg text-purple-600">
+                        <i class="fa-solid fa-sitemap text-lg"></i>
+                    </div>
+
+                    <h2 class="text-lg font-bold text-slate-900">
+                        Materi 7
+                    </h2>
+
+                </div>
+
+                <select onchange="location.href=this.value"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+
+                    <option disabled selected>
+                        -- Pilih Sub Materi --
+                    </option>
+
+                    <option value="strukturdata/parsingBinerytree.html">
+                        7.1 - Parsing Binery Tree
+                    </option>
+
+                    <option value="strukturdata/binerytree.html">
+                        7.2 - Binery Tree
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <!-- DAFTAR TUGAS -->
+        <section class="bg-white rounded-2xl shadow-xs border border-slate-200 p-6">
+
+            <div
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+
+                <div class="flex items-center space-x-3">
+
+                    <div class="p-2 bg-amber-50 rounded-lg text-amber-600">
+                        <i class="fa-solid fa-list-check text-lg"></i>
+                    </div>
+
+                    <h2 class="text-lg font-bold text-slate-900">
+                        Daftar Tugas & Catatan
+                    </h2>
+
+                </div>
+
+                <select onchange="window.open(this.value, '_blank')"
+                    class="bg-slate-50 border border-slate-300 text-slate-700 text-sm rounded-xl p-2.5 font-medium outline-none cursor-pointer focus:ring-2 focus:ring-indigo-500 w-full sm:w-72">
+
+                    <option disabled selected>
+                        -- Pilih Tugas --
+                    </option>
+
+                    <option value="strukturdata/250411100175_erickdwiputraA.F.html">
+                        Hashing dan Sorting
+                    </option>
+
+                    <option value="strukturdata/25-175_erickdwiputraA.f.html">
+                        Linked List
+                    </option>
+
+                    <option value="strukturdata/tugasTree_250411100175.html">
+                        Tree
+                    </option>
+
+                    <option value="strukturdata/catetan.html">
+                        Catatan
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
     </div>
 
 </body>
+
 </html>
